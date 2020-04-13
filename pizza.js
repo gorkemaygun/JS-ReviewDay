@@ -1,6 +1,6 @@
 var toppings=['Cheese','Pepperoni','Garlic','Peppers'];
 function pizza(add){
-	
-	return console.log('A delicious pizza with' + " " + toppings);
+	var addToppings=toppings.join(' and ');
+	return console.log('A delicious pizza with' + " " + addToppings);
 }
 pizza();
