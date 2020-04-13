@@ -1,5 +1,7 @@
 $('body *').each(function (each) {
-	var numbers=(Math.random()*500) + "px";
-	$(this).css('position','absolute').css('top','random').css('left','random');
-		
+	
+	
+	$(this).css('position','absolute')
+	.css('top',Math.random()*500)
+	.css('left',Math.random()*500);	
 })
